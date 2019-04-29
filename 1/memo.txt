@@ -1,0 +1,10 @@
+Rコマンド起動、source("script.r")で実行
+CSV読み込み: data <- read.csv("kozeni.csv",header=F,  sep=",")
+summary(data): データの概要出力
+TODO: Rにおける配列とベクトルのちがい
+とりあえずdata$V2,またはdata[['V2']]みたいな感じでベクトルにアクセスできるらしい。
+参照:https://qiita.com/motokazu/items/a6f0e807e8ecf751b390
+ヒストグラム関数については
+https://qiita.com/nishi_bayashi/items/acc3a346df7b7d893f75
+を参照した
+par(family = "HiraKakuProN-W3")を唱えると日本語が文字化けしないっぽい
